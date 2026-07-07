@@ -1,10 +1,10 @@
 [
     {
-        "UpdateStageName": "Download Server Build (Google Drive)",
+        "UpdateStageName": "Download Latest Server Release",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://drive.usercontent.google.com/download?id=17xHOmeWaoHP1HV0vjgJnpBY08WNlMeY9&export=download&confirm=t",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceArgs": "markv12/SuperCloudCube-AMPTemplate",
+        "UpdateSourceData": "SuperCloudCubeServer-Linux.zip",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
