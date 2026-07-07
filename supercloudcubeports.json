@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 10000,
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "UDP port FishNet/UnityTransport listens on for game traffic"
+    }
+]

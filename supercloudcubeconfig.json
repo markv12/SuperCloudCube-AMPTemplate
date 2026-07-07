@@ -1,0 +1,44 @@
+[
+    {
+        "DisplayName": "Game Port",
+        "Category": "SuperCloudCube:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "UDP port the server listens on. This is passed to the server as '-port'. Change the allocated port under the instance's network settings if you need a different value.",
+        "Keywords": "port,game,udp",
+        "FieldName": "$GamePort",
+        "InputType": "number",
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": true,
+        "ReadOnly": true,
+        "DefaultValue": "10000",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Save / World Name",
+        "Category": "SuperCloudCube:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Name of the world save slot to load or create. Passed to the server as '-save'. Worlds are stored under the instance's 'saves' directory.",
+        "Keywords": "save,world,name",
+        "FieldName": "SaveName",
+        "InputType": "text",
+        "ParamFieldName": "save",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "world",
+        "Placeholder": "world",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Player Limit",
+        "Category": "SuperCloudCube:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of players shown in AMP. Note: the game server does not currently enforce a hard cap; this is used for AMP's UI and player-count display.",
+        "Keywords": "max,players,limit,slots",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": "1",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "10",
+        "Suffix": "players",
+        "EnumValues": {}
+    }
+]

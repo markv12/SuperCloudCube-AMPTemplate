@@ -1,0 +1,20 @@
+[
+    {
+        "UpdateStageName": "Download Server Build (Google Drive)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://drive.usercontent.google.com/download?id=17xHOmeWaoHP1HV0vjgJnpBY08WNlMeY9&export=download&confirm=t",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Make Server Executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "{{$FullBaseDir}}SuperCloudCubeServer.x86_64",
+        "SkipOnFailure": false
+    }
+]
