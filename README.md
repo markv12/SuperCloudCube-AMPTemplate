@@ -24,15 +24,14 @@ bypasses Drive's scan-warning interstitial).
 
 ## One-time setup (you, the author)
 
-1. **Create a public GitHub repo**, e.g. `SuperCloudCube-AMPTemplate`.
-2. **Replace `YOUR_GH_USER`** with your GitHub username in `manifest.json` (`origin`, `url`).
-3. **Commit and push** these template files to the repo's `main` branch.
-   (The Drive download URL is already baked into `supercloudcubeupdates.json` — no edit needed.)
+Repo: https://github.com/markv12/SuperCloudCube-AMPTemplate — the template files are pushed to
+`main`. The Drive download URL is already baked into `supercloudcubeupdates.json`, so there is
+nothing left to configure; new builds just get uploaded to Drive (see "Shipping an update").
 
 ## What your friend does (per server)
 
 1. **Add the repo once**: AMP → *Configuration → Instance Deployment → Add → Configuration Repository*,
-   enter `YOUR_GH_USER/SuperCloudCube-AMPTemplate:main`.
+   enter `markv12/SuperCloudCube-AMPTemplate:main`.
 2. **Create an instance** and choose **SuperCloudCube** from the application list.
 3. Click **Update** (downloads the latest release build + chmods it).
 4. Confirm the **Game Port** (UDP 10000 — forward it on the network), set a world name, **Start**.
