@@ -22,7 +22,7 @@
         "InputType": "number",
         "MinValue": "1",
         "IncludeInCommandLine": false,
-        "DefaultValue": "10",
+        "DefaultValue": "64",
         "Suffix": "players",
         "EnumValues": {}
     }

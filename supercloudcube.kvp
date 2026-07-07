@@ -5,7 +5,7 @@ Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=Scott Steffes
 Meta.URL=
-Meta.DisplayImageSource=url:https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/GenericIcon.png
+Meta.DisplayImageSource=url:https://raw.githubusercontent.com/markv12/SuperCloudCube-AMPTemplate/main/SCCIcon.png
 Meta.EndpointURIFormat={ip}:{GenericModule.App.Ports.$GamePort}
 Meta.ConfigManifest=supercloudcubeconfig.json
 Meta.MetaConfigManifest=supercloudcubemetaconfig.json
@@ -58,7 +58,7 @@ App.AdminPortRef=0
 App.PrimaryApplicationPortRef=GamePort
 App.UniversalSleepApplicationUDPPortRef=0
 App.UniversalSleepSteamQueryPortRef=0
-App.MaxUsers=10
+App.MaxUsers=64
 App.UseRandomAdminPassword=False
 App.PersistRandomPassword=False
 App.RemoteAdminPassword=
@@ -94,8 +94,8 @@ Console.FilterMatchRegex=\e\[(\d+;)*(\d+)?[ABCDHJKfmsu]|\e\[?[?\>\=\da-z]+
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=
 Console.AppReadyRegex=\[DedicatedServer\] Listening on
-Console.UserJoinRegex=
-Console.UserLeaveRegex=
+Console.UserJoinRegex=\[Player\] Joined name='(?<username>[^']*)'
+Console.UserLeaveRegex=\[Player\] Left name='(?<username>[^']*)'
 Console.UserChatRegex=
 Console.UpdateAvailableRegex=
 Console.MetricsRegex=
