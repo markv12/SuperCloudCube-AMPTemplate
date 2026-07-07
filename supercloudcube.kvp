@@ -24,6 +24,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
+Meta.AppConfigId=cdf42aff-a4cf-41cb-ac70-73b1e8bbf3b5
 Meta.ImportableExtensions=[]
 App.DisplayName=SuperCloudCube
 App.RootDir=./SuperCloudCube/
