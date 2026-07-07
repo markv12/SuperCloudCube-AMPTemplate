@@ -1,19 +1,5 @@
 [
     {
-        "DisplayName": "Game Port",
-        "Category": "SuperCloudCube:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "UDP port the server listens on. This is passed to the server as '-port'. Change the allocated port under the instance's network settings if you need a different value.",
-        "Keywords": "port,game,udp",
-        "FieldName": "$GamePort",
-        "InputType": "number",
-        "ParamFieldName": "port",
-        "IncludeInCommandLine": true,
-        "ReadOnly": true,
-        "DefaultValue": "10000",
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Save / World Name",
         "Category": "SuperCloudCube:stadia_controller",
         "Subcategory": "Server:dns:1",
@@ -21,8 +7,7 @@
         "Keywords": "save,world,name",
         "FieldName": "SaveName",
         "InputType": "text",
-        "ParamFieldName": "save",
-        "IncludeInCommandLine": true,
+        "IncludeInCommandLine": false,
         "DefaultValue": "world",
         "Placeholder": "world",
         "EnumValues": {}
